@@ -32,7 +32,7 @@
 
 .diamond{
   position: absolute;
-  top: 150px;
+  top: 120px;
   right: 50px;
   animation: float1 3s ease-in-out infinite;
   z-index: -1;
