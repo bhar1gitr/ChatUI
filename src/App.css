@@ -22,21 +22,23 @@
 }
 
 .donut {
-  position: absolute;
+ /* position: absolute;
   top: 50px;
   left: 50px;
   animation: float 3s ease-in-out infinite;
   z-index: -1;
   opacity: 0.6;
+  */
 }
 
 .diamond{
-  position: absolute;
-  top: 120px;
+ /* position: absolute;
+  top: 80px;
   right: 50px;
   animation: float1 3s ease-in-out infinite;
   z-index: -1;
   opacity: 0.6;
+  */
 }
 
 @keyframes float {
@@ -125,6 +127,7 @@ body{
   border: none;
   border-radius: 5px;
   padding: 0px 10px;
+  padding-right: 100px;
   font-size: 16px;
   outline: none;
 }
@@ -163,17 +166,19 @@ body{
 
 @media (max-width: 900px) {
   .donut{
-    height: 230px;
+/*     height: 230px;
     width: 230px;
     left: 20px;
-    top: 100px;
+    top: 100px; */
+    display : none;
   }
 
   .diamond{
-    height: 230px;
+/*     height: 230px;
     width: 230px;
     right: 20px;
-    top: 350px;
+    top: 350px; */
+    display: none;
   }
 
   .chat-container{
