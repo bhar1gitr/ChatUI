@@ -76,8 +76,8 @@ const MyComponent = () => {
     return (
         <div>
             <div className='chat-container'>
-                <img className='donut' src='https://framerusercontent.com/images/y2xlq1h3icZ4jgx95T5M5Jv9fhg.png?scale-down-to=512'/>
-                <img className='diamond' src='https://framerusercontent.com/images/mIeiiFyiLX8guUCulp8nzYRde7s.png?scale-down-to=512' />
+                {/* <img className='donut' src='https://framerusercontent.com/images/y2xlq1h3icZ4jgx95T5M5Jv9fhg.png?scale-down-to=512'/>
+                <img className='diamond' src='https://framerusercontent.com/images/mIeiiFyiLX8guUCulp8nzYRde7s.png?scale-down-to=512' /> */}
                 {/* <img className='donut' src={shape1} />
                 <img className='diamond' src={shape2} /> */}
                 
@@ -85,7 +85,7 @@ const MyComponent = () => {
                     <div key={index}>
                         <div style={{ display: 'flex', justifyContent: 'end' }}>
                             <div className='chat user'>
-                                <div style={{ color: 'white' }}>
+                                <div className='user-reply' style={{ color: 'white' }}>
                                     <h4 style={{color:'#'}}>User</h4>
                                     <p>{chat.user}</p>
                                 </div>
