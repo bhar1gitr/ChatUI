@@ -86,7 +86,7 @@ const MyComponent = () => {
                         <div style={{ display: 'flex', justifyContent: 'end' }}>
                             <div className='chat user'>
                                 <div className='user-reply' style={{ color: 'white' }}>
-                                    <h4 style={{color:'#'}}>User</h4>
+                                    <h4 style={{color:'#'}}>scout9842</h4>
                                     <p>{chat.user}</p>
                                 </div>
                                 <img
